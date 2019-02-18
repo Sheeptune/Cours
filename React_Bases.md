@@ -7,7 +7,7 @@
 
 **Pourquoi on l'utilise** : Permet gestion et maintien de code simplifiés et vient combler certains manques (en fonctionnalité) d’une écriture plus traditionnelle avec HTML CSS et JAVASCRIPT
 
-## Les principes de Javascript ES2015
+## Les principes de Javascript ES2015 - 1ere partie
 
 - Let : qui remplace var, elle peuvent changer et on peut les assigner plusieurs fois
 - Const : pour les variables qui ne changent pas et qu’on assigne qu’une fois (ne recevra jamais une nouvelle valeur)
@@ -63,5 +63,8 @@ class Person extends Human {
 const Person = new Person;
 person.printMyName();
 person.printGender();
-
 ```
+
+## Les principes de Javascript ES2015 - 2eme partie
+
+### Classes, Propriétés et Méthodes
