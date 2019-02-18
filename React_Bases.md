@@ -2,7 +2,9 @@
 # React - Bases
 
 **Qu'est ce que c'est** : Librairie Javascript qui fonctionne dans le navigateur (avantage en rapidité) pour construire des interfaces utilisateurs
+
 **Comment ça marche** : Avec des composants (des blocs dédiés)
+
 **Pourquoi on l'utilise** : Permet gestion et maintien de code simplifiés et vient combler certains manques (en fonctionnalité) d’une écriture plus traditionnelle avec HTML CSS et JAVASCRIPT
 
 ## Les principes de Javascript ES2015
