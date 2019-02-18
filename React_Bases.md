@@ -7,7 +7,7 @@
 
 **Pourquoi on l'utilise** : Permet gestion et maintien de code simplifiés et vient combler certains manques (en fonctionnalité) d’une écriture plus traditionnelle avec HTML CSS et JAVASCRIPT
 
-## Les principes de Javascript ES2015 - 1ere partie
+## Les principes de Javascript ES6 
 
 - Let : qui remplace var, elle peuvent changer et on peut les assigner plusieurs fois
 - Const : pour les variables qui ne changent pas et qu’on assigne qu’une fois (ne recevra jamais une nouvelle valeur)
@@ -20,7 +20,7 @@ export const clean = () =>
 import {clean} from ‘./utility.js’
 ```
 
-- Les classes : Elles peuvent contenir des propriétés (des variables) et des methodes (des fonctions). Elles sont utilisées pour créér des objets avec des classes sour forme de plans, et sont instanciées comme tel :
+- Les classes : Elles peuvent contenir des propriétés (des variables asscociées à des classes et des objets) et des methodes (des fonctions). Elles sont utilisées pour créér des objets avec des classes sour forme de plans, et sont instanciées comme tel :
 
 ```
 class Person {
@@ -65,6 +65,6 @@ person.printMyName();
 person.printGender();
 ```
 
-## Les principes de Javascript ES2015 - 2eme partie
+## Les principes de Javascript ES7 
 
 ### Classes, Propriétés et Méthodes
