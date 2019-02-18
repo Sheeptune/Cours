@@ -16,7 +16,25 @@ Dans ce cas **on appelle plusieurs fois le render ReactDOM** en définissant la 
 
 ### Workflow
 
-On a besoin de nmp qui permet de gérer les paquets et les dépendances.
-On a besoin d’un blundler (webpack) pour écrire du code modulaire et les scinder en plusieurs fichiers avec un tache propre.
-On a aussi besoin d’un compilateur pour compiler le javascript : Babel et Preset
+On a besoin de **nmp qui permet de gérer les paquets et les dépendances**.
+On a besoin d’un **blundler (webpack)** pour écrire du code modulaire et les scinder en plusieurs fichiers avec un tache propre.
+On a aussi besoin d’un compilateur pour compiler le javascript : **Babel et Preset**
+
+Pour tout cela on utilise **CREATE REACT APP** qui va lui même générer le dossier du projet.
+(Prérecquis : avoir installé NodeJs)
+
+```
+npm install --global create-react-app
+create-react-app nomDuDossier
+
+cd nomDuDossier
+npm start
+```
+
+
+
+
+
+
+
 
