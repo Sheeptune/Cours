@@ -104,4 +104,20 @@ person.printMyName();
 person.printGender();
 ```
 
+### Les opérateurs Spread et Rest
 
+- Spread : Utilisé pour séparer les éléments d'un tableau ou les propriétés de l'objet.
+Considérons que l'on veuille ajouter les éléments d'un ancien tableau à un nouveau table et y rajouter les éléments 1 et 2 :
+
+```
+const newArray = [...oldArray, 1, 2]
+const newObject = {...oldObjetc, newProp:5}
+```
+
+- Rest : Utilisé pour fusionner une liste d'arguments de fonction dans un tableau.
+Considérons que l'on veuille appliquer des méthodes de tableau à une liste d'arguments :
+
+```
+function sortArgs(...args)
+return arg.sort()
+```
