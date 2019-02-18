@@ -15,6 +15,8 @@ POURQUOI :  Permet gestion et maintien de code simplifiés et vient combler cert
 export default person
 import person from ‘./person.js’
 export const clean = () =>
-import {clean} from ‘./utility.js’```
+import {clean} from ‘./utility.js’
+```
 
-- Les classes : 
+- Les classes : Elles peuvent contenir des propriétés (des variables) et des methodes (des fonctions). Elle est instancié comme tel :
+
