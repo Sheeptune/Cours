@@ -32,4 +32,36 @@ myPerson.call()
 console.log(myPerson.name)
 ```
 
-- Extend : Les classes prennent en charge l'héritage ce qui signifie, une autre classe peut hériter de ses propriétés, ses méthodes et potentiellement ajouter de nouvelles propriétés et méthodes.
+- Extends : Les classes prennent en charge l'héritage ce qui signifie, une autre classe peut hériter de ses propriétés, ses méthodes et potentiellement ajouter de nouvelles propriétés et méthodes.
+
+```
+class Person extends Master
+```
+
+Lors de l'extension si on utilise un 2eme constructor, ne pas oublier de rajouter **super()**
+
+```
+class Human {
+    constructor (){
+        this.gender = 'female';
+    }
+
+    printGender {
+        console.log(this.gender)
+}
+
+class Person extends Human {
+    constructor (){
+        super();
+        this.name = 'Sheeptune';
+    }
+
+    printMyName {
+    console.log(this.gender)
+}
+
+const Person = new Person;
+person.printMyName();
+person.printGender();
+
+```
