@@ -18,5 +18,15 @@ export const clean = () =>
 import {clean} from ‘./utility.js’
 ```
 
-- Les classes : Elles peuvent contenir des propriétés (des variables) et des methodes (des fonctions). Elle est instancié comme tel :
+- Les classes : Elles peuvent contenir des propriétés (des variables) et des methodes (des fonctions). Elles sont instanciées comme tel :
+
+```
+class Person {
+    name = "Max"
+    call = () => {...}
+
+const myPerson = new Person ()
+myPerson.call()
+console.log(myPerson.name)
+```
 
