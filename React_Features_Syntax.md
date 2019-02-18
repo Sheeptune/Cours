@@ -31,6 +31,8 @@ cd nomDuDossier
 npm start
 ```
 
+Pour retrouver les commandes des lancements du projets vous pouvez également cliquer sur ce [lien](https://facebook.github.io/create-react-app/docs/getting-started)
+
 
 
 
