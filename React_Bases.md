@@ -81,6 +81,27 @@ Avec ES7 la synthaxe des méthodes est également altérée. Il faut l'imaginer 
 | --------------- | ---------------------- |
 | myMethod(){...} | myMethod = () => {...} |
 
+Si on reprend l'exercice fait sur extend, on obtient alors :
 
+
+```
+class Human {
+    gender = 'female';
+
+    printGender = () => {
+        console.log(this.gender)
+}
+
+class Person extends Human {
+    name = 'Sheeptune';
+   
+    printMyName = () => {
+    console.log(this.gender)
+}
+
+const Person = new Person;
+person.printMyName();
+person.printGender();
+```
 
 
