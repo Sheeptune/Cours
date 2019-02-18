@@ -1,9 +1,9 @@
 
 # React - Bases
 
-QUOI : Librairie Javascript qui fonctionne dans le navigateur (avantage en rapidité) pour construire des interfaces utilisateurs
-COMMENT : Avec des composants (des blocs dédiés)
-POURQUOI :  Permet gestion et maintien de code simplifiés et vient combler certains manques (en fonctionnalité) d’une écriture plus traditionnelle avec HTML CSS et JAVASCRIPT
+**Qu'est ce que c'est** : Librairie Javascript qui fonctionne dans le navigateur (avantage en rapidité) pour construire des interfaces utilisateurs
+**Comment ça marche** : Avec des composants (des blocs dédiés)
+**Pourquoi on l'utilise** : Permet gestion et maintien de code simplifiés et vient combler certains manques (en fonctionnalité) d’une écriture plus traditionnelle avec HTML CSS et JAVASCRIPT
 
 ## Les principes de Javascript ES2015
 
@@ -30,3 +30,4 @@ myPerson.call()
 console.log(myPerson.name)
 ```
 
+- Extend : Les classes prennent en charge l'héritage ce qui signifie, une autre classe peut hériter de ses propriétés, ses méthodes et potentiellement ajouter de nouvelles propriétés et méthodes.
