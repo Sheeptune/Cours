@@ -68,3 +68,10 @@ person.printGender();
 ## Les principes de Javascript ES7 
 
 ### Classes, Propriétés et Méthodes
+
+Avec ES7 on peu affecter une propriété directement dans sa classe sans passer par un constructor
+
+| ES6                                    | ES7                  |
+| -------------------------------------- | -------------------- |
+| constructor(){this.myProperty='value'} | myProperty = 'value' |
+
