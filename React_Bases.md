@@ -69,9 +69,18 @@ person.printGender();
 
 ### Classes, Propriétés et Méthodes
 
-Avec ES7 on peu affecter une propriété directement dans sa classe sans passer par un constructor
+Avec ES7 on peut affecter une propriété directement dans sa classe sans passer par un constructor
 
 | ES6                                    | ES7                  |
 | -------------------------------------- | -------------------- |
 | constructor(){this.myProperty='value'} | myProperty = 'value' |
+
+Avec ES7 la synthaxe des méthodes est également altérée. Il faut l'imaginer une propriété qui stocke une fonction sous forme de valeur.
+
+| ES6             | ES7                    |
+| --------------- | ---------------------- |
+| myMethod(){...} | myMethod = () => {...} |
+
+
+
 
